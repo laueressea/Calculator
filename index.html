@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="title-container">
+      <h1 style="font-family: 'Eczar', serif; color: #08335D; font-size: 30px; font-weight: bold">La Calcu</h1>
+    </div>
+    <div class="calcu-container">
+      <input type="text" name="" value="" class="calcu-display" readonly>
+      <div class="calcu-pad">
+        <div class="calcu-pad-block">
+          <div class="calcu-button-row">
+            <button class="btn button num">1</button>
+            <button class="btn button num">2</button>
+            <button class="btn button num">3</button>
+          </div>
+          <div class="calcu-button-row">
+            <button class="btn button num">4</button>
+            <button class="btn button num">5</button>
+            <button class="btn button num">6</button>
+          </div>
+          <div class="calcu-button-row">
+            <button class="btn button num">7</button>
+            <button class="btn button num">8</button>
+            <button class="btn button num">9</button>
+          </div>
+          <div class="calcu-button-row">
+            <button class="btn button" id="clear-all">CA</button>
+            <button class="btn button num">0</button>
+            <button class="btn button" id="resolve">=</button>
+          </div>
+        </div>
+        <div class="calcu-operations-column">
+          <button class="btn button symbol">+</button>
+          <button class="btn button symbol">-</button>
+          <button class="btn button symbol">*</button>
+          <button class="btn button symbol">/</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/calcucode.js"></script>
+  </body>
+</html>
